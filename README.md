@@ -1,3 +1,6 @@
+This local fork is being used by vertex-api to incorporate a fix to service discovery that works with Fargate services.  The official lib is slated to have this fix incorporated into the
+4.2.0 release.  Once that has been released, we can switch to the official version and archive this repo.
+
 # Vert.x Service Discovery
 
 [![Build Status](https://github.com/vert-x3/vertx-service-discovery/workflows/CI/badge.svg?branch=master)](https://github.com/vert-x3/vertx-service-discovery/actions?query=workflow%3ACI)
@@ -27,5 +30,5 @@ The `vertx-discovery-bridge-consul` is a discovery bridge importing the services
 
 ## Discovery Backend - Redis
 
-The `vertx-discovery-backend-redis` is another implementation of the Vert.x discovery backend (where service record 
+The `vertx-discovery-backend-redis` is another implementation of the Vert.x discovery backend (where service record
 are stored) using Redis instead of a distributed map.
