@@ -7,3 +7,6 @@ unzip -q /tmp/awscliv2.zip -d /tmp/
 
 mvn -U clean compile package install -Dmaven.test.skip=true -Dmaven.repo.local=./m2
 aws s3 --profile ops cp m2/io/vertx/vertx-service-discovery-bridge-consul/ s3://vertex-code-ops-us-west-2/m2/release/io/vertx/vertx-service-discovery-bridge-consul/ --recursive --exclude _remote.repositories
+
+rm -rf m2
+mvn clean
