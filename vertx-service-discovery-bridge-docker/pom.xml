@@ -30,7 +30,7 @@
 
   <properties>
     <doc.skip>true</doc.skip>
-    <jackson.version>2.14.1</jackson.version>
+    <jackson.version>2.14.2</jackson.version>
   </properties>
 
   <dependencies>
